@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       vehicle
+//  action 1:   the vehicle starts
+vehicle.start();
+//  action 2:   the vehicle turns left
+vehicle.turnLeft();
+//  action 3:   the vehicle illuminates road ahead
+vehicle.illuminateRoad();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       person
+//  action 1:   the person walks
+person.walk();
+//  action 2:   the person open door
+person.openDoor();
+//  action 3:   the person lays down
+person.layDown();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       npc
+//  action 1:   the npc follows player
+npc.followPlayer();
+//  action 2:   the npc attacks
+npc.attack();
+//  action 3:   the npc creates a new walking path
+npc.createNewWalkingPath();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       fader
+//  action 1:   the fader increases the volume
+fader.turnVolumeUp();
+//  action 2:   the fader decreases the volume
+fader.turnVolumeDown();
+//  action 3:   the fader adjust signal to unity gain
+fader.autoAdjustToUnityGain();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       phone
+//  action 1:   the phone calls
+phone.call();
+//  action 2:   the phone sends text
+phone.sendText();
+//  action 3:   the phone finds nearby restaurant
+phone.findRestaurantNeaby();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       hand
+//  action 1:   the hand lifts finger
+hand.liftFinger();
+//  action 2:   the hand holds object
+hand.holdObject();
+//  action 3:   the hand closes
+hand.close();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       dog
+//  action 1:   the dor barks
+dog.bark();
+//  action 2:   the dog catches the ball
+dog.catchBall();
+//  action 3:   the dog eats the food
+dog.eatFood();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       parrot
+//  action 1:   the parrot flys
+parrot.fly();
+//  action 2:   the parrot repeats last heard word
+parrot.repeatLastWord();
+//  action 3:   the parrot locates its cage
+parrot.locateCage();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       detective
+//  action 1:   the detective searches for clue
+detective.findClue();
+//  action 2:   the detective interviews suspect
+detective.interviewSuspect();
+//  action 3:   the detective arrests suspect
+detective.arrestSuspect();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       protester
+//  action 1:   the protester initiates a peaceful protest
+protester.initiatePeacefulProtest();
+//  action 2:   the protester assesses the proximity of police
+protester.assessPoliceProximity();
+//  action 3:   the protester neutralizes the tear gas
+protester.neutralizeTearGas();
 
 
 #endif
