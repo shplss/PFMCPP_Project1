@@ -116,13 +116,13 @@ parrot.repeatLastWord();
 //  action 3:   the parrot locates its cage
 parrot.locateCage();
 //  9)
-//  Noun:       detective
+//  Noun:       carRentalService
 //  action 1:   the detective searches for clue
-detective.findClue();
+carRentalService.findNearestAvailableCar();
 //  action 2:   the detective interviews suspect
-detective.interviewSuspect();
+carRentalService.checkFuelAmount();
 //  action 3:   the detective arrests suspect
-detective.arrestSuspect();
+carRentalService.cleanCarsInRadius();
 //  10)
 //  Noun:       protester
 //  action 1:   the protester initiates a peaceful protest
